@@ -1,0 +1,13 @@
+{
+    "ValidUsername":"chethi",
+    "ValidPassword":"chethi123456",
+    
+    "InvalidUsername":"Niuni",
+    "InvalidPassword":"niuni1234$",
+
+    "AdminUsername" : "qaadmin",
+    "AdminPassword" : "1234",
+
+    "InvalidMessage" : "Please enter correct username / password",
+    "SuccessTitle" : "Find your service to get super easy & fast services!"
+}

@@ -1,0 +1,6 @@
+{
+  "watchForFileChanges": false,
+  "defaultCommandTimeout": 50000,
+  "chromeWebSecurity": false,
+  "projectId": "e2ukju"
+}

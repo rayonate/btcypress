@@ -1,0 +1,11 @@
+{
+    "Name":"Chethiya",
+    "Username":"chethi",
+    "Email":"chethi@gmail.com",
+    "TelephoneNo":"0715678945",
+    "Password":"daham123456",
+    "RePassword":"daham123456",
+    
+    "ExistingUsernameMessage" : "This username is already taken.",
+    "SuccessTitle" : "WHAT YOU WANT TO DO TODAY ?"
+}

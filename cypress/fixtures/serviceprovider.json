@@ -1,0 +1,37 @@
+{
+        "BusinessName" : "Saloon Oriflame",
+        "BusinessSlug" : "oriflame12xss775",
+        "Description": "Leading Saloon in Maharagama At Looks Salon we provide full salon services in an elegant yet unpretentious atmosphere created wit ",
+        "userid": "5adb688e-18bd-49fe-b088-88c7e5bba136",
+
+        "No": "391/25",
+        "AddressLine1": "railway rd",
+        "AddressLine2": "colombo 9",
+        "Province": "western",
+        "PostalCode": "7788",
+        "telephone1": "0775608621",
+        "telephone2": "0775608421",
+        "Email": "chethi@gmail.com",
+        "Location" : "colombo",
+
+        "AwardName" : "Best beautician ",
+        "AwardDescription": "Leading Saloon in sri lanka in 2020 by ministry",
+        
+        "ServiceTitle1" : "French facial",
+        "ServiceDiscription1" : "Keep your skin feeling fresh and flawless with our range of professional face masks and serums.",
+        "Price1" : "7000",
+        "Duration1" : "2",
+
+        "ServiceTitle2" : "Hair mask",
+        "ServiceDiscription2" : "Keep your hair feeling fresh and flawless with our range of professional face masks and serums.",
+        "Price2" : "5000",
+        "Duration2" : "2",
+
+        "Staff1" : "Angel sha",
+        "StaffDescription1" : "Choose from our range of face treatments from leading brands including Beauty Pro and Skintruth.",
+
+        "Staff2" : "Bela grey",
+        "StaffDescription2" : "Choose from our range of face treatments from leading brands including Beauty Pro and Skintruth.",
+  
+        "SuccessTitle" : "All Business Profiles"
+  }

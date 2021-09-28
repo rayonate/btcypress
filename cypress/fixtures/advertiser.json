@@ -1,0 +1,27 @@
+{   "ValidUsername":"qaadmin",
+    "ValidPassword":"1234",
+    "ValidUserId":"5adb688e-18bd-49fe-b088-88c7e5bba136",
+    "ValidTitle":"Saloon Looks",
+    "ValidDescription":"Salon Looks, well experienced Squad is always ready to make you look better",
+    "ValidAddressNo":"391/25",
+    "ValidAddressLine1":"Railway housing estate",
+    "ValidAddressLine2":"Baseline Road dematagoda",
+    "ValidProvince":"Western",
+    "ValidPosatlCOde":"778875",
+    "ValidTelephoneNo1":"0335608683",
+    "ValidTelephoneNo2":"0772138042",
+    "ValidEmail":"rukshan12345@gmail.com",
+    
+
+    "InValidTitle":"!@#!$!$!%!%!!^!^!^^^^^^^^^^^^^^^^^^^^^^&@$@#!$#$!",
+    "InValidAdressNO":"1121212121212121sasadadsadsdsd",
+    "InValidAddressLine1":"!@#!$!$!%!%!!^!^!",
+    "InValidAddressLine2":"asasasadddddddddddddddddddddd",
+    "InValidProvince":"aAAAAAAAAAAASASASSSSSSSSSSSSSSSSSSSSSSSS",
+    "InValidPosatlCOde":"aasasda",
+    "InValidTelephoneNo1":"077560",
+    "InValidTelephoneNo2":"aaaaaaa",
+    "InValidEmail":"asasaaaaaaaa"
+
+}
+

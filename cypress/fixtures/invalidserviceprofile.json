@@ -1,0 +1,27 @@
+{
+    "userid": "5adb688e-18bd-49fe-b088-88c7e5bba136",
+
+    "ShortBusinessName" : "Mi",
+    "ShortBusinessNameError" : "Minimum length of this field is 3.",
+
+    "LongBusinessSlug" : "ofdfignsfnngfgsfssccdsf",
+    "LongBusinessSlugError" : "Maximum length of this field is 20.",
+    
+    "InvalidDesError" : "Your keyboard language & selected language is different",
+
+    "RequiredError" : "This field is required",
+
+    "InvalidAddressNo" : "12552457854123645785645245",
+    "InvalidAddressNoError" : "Maximum length of this field is 12.",
+
+    "InvalidProvince" : "Sdfdvfghghggghghghgcvfb",
+    "InvalidProvinceError" : "Maximum length of this field is 12.",
+
+    "InvalidPostcodeError" : "Maximum length of this field is 12.",
+
+    "InvalidPhone" : "100",
+    "InvalidPhoneError" : "Please enter a valid telephone number, between 7 and 15 numbers.",
+
+    "InvalidEmailError" : "Invalid email address."
+
+}
