@@ -52,6 +52,7 @@ class HomePage
         cy.get('.col-sm-7 > .row > .text-body > .font-weight-bold').should('have.text','saloon chandani')
 
     }
+    Hello world
 
 }
 export default HomePage
