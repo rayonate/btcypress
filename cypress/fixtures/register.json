@@ -1,11 +1,26 @@
 {
-    "Name":"Chethiya",
-    "Username":"chethi",
-    "Email":"chethi@gmail.com",
-    "TelephoneNo":"0715678945",
-    "Password":"daham123456",
-    "RePassword":"daham123456",
-    
-    "ExistingUsernameMessage" : "This username is already taken.",
-    "SuccessTitle" : "WHAT YOU WANT TO DO TODAY ?"
+    "ValidName":"nuwan",
+    "ValidUsername":"nuwaqwer",
+    "ValidEmail":"dahamsa40@gmail.com",
+    "ValidTelephoneNo":"0715678945",
+    "ValidPassword":"daham123456",
+    "ValidRePassword":"daham123456",
+
+
+    "InvalidName":"!@##$@##",
+    "AlreadytakenName":"qaadmin",
+    "InvalidUsername":"!!!!!!!",
+    "InvalidEmail":"dahamsassss.co",
+    "InvalidTelephoneNo":"!@#!@@###$$sasa",
+    "InvalidPassword":"van123",
+    "InvalidPassword1":"12345asdf",
+    "Numberpassowrd":"12345678",
+    "InvalidRePassword":"van123",
+    "InvalidRePassword1":"12345asdp",
+    "Numberpassowrd2":"12345678",
+
+
+
+    "InvalidMessage" : "Please enter correct username / password",
+    "SuccessTitle" : "Find your service to get super easy & fast services!"
 }

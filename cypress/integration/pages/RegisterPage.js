@@ -43,6 +43,42 @@ class RegisterPage
         field.type(value)
         return this
     }
+    checkName(){
+
+
+
+        cy.get('#name-validation > div > .text-danger').should('have.text','can not enter numbers or special characters.')
+
+    }
+    checkUsername(){
+
+
+
+        cy.get(':nth-child(2) > app-validation-message > div > .text-danger').should('have.text','Alpha numeric characters only and should not be entirely numeric.')
+
+    }
+    checkEmail(){
+
+        cy.get(':nth-child(3) > app-validation-message > div > .text-danger').should('have.text','Invalid email address.')
+
+    }
+    checkPhoneNumber(){
+
+        cy.get(':nth-child(4) > app-validation-message > div > .text-danger').should('have.text','Please enter a valid telephone number, between 7 and 15 numbers.')
+
+    }
+    checkPassword(){
+
+        cy.get(':nth-child(5) > app-validation-message > div > .text-danger').should('have.text','Minimum length of this field is 8.')
+
+
+    }
+    checkRRepeatPassword(){
+
+        cy.get(':nth-child(6) > app-validation-message > div > .text-danger').should('have.text','Minimum length of this field is 8.')
+
+    }
+
 
     agreeCheckbox()
     {
@@ -55,16 +91,14 @@ class RegisterPage
         const button = cy.get('#signUpbtn')
         button.click()
     }
-
-    validateNewUser(value)
+    termsConditions()
     {
-        cy.get('#h1').should('contain',value)
+        const button = cy.get('.custom-control-label > .text-success')
+        button.click()
     }
 
-    validateExistingUser(value)
-    {
-        cy.get(':nth-child(2) > app-validation-message > div > .text-danger').should('contain',value)
-    }
+
+
 
 }
 export default RegisterPage
