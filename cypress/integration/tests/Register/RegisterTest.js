@@ -15,6 +15,7 @@ describe('Billionthing Register Test', function () {
 
                 headerpage.visit()
                 headerpage.signupHeader()
+                cy.get('.text-white').should('be.visible')
                 registerpage.fillName(registertest.ValidName)
                 registerpage.fillUsername(registertest.ValidUsername)
                 registerpage.fillEmail(registertest.InvalidEmail)
@@ -30,7 +31,7 @@ describe('Billionthing Register Test', function () {
             })
     })
 
-    it('Verify that the user name, can not enter numbers or special characters', function () {
+    it('Verify that the  name, can not enter numbers or special characters', function () {
 
         const headerpage = new HeaderPage()
         const registerpage = new RegisterPage()
@@ -40,6 +41,7 @@ describe('Billionthing Register Test', function () {
 
                 headerpage.visit()
                 headerpage.signupHeader()
+                cy.get('.text-white').should('be.visible')
                 registerpage.fillName(registertest.InvalidName)
                 registerpage.fillUsername(registertest.ValidUsername)
                 registerpage.fillEmail(registertest.ValidEmail)
@@ -66,6 +68,7 @@ describe('Billionthing Register Test', function () {
 
                 headerpage.visit()
                 headerpage.signupHeader()
+                cy.get('.text-white').should('be.visible')
                 registerpage.fillName(registertest.ValidName)
                 registerpage.fillUsername(registertest.AlreadytakenName)
                 registerpage.fillEmail(registertest.ValidEmail)
@@ -90,6 +93,7 @@ describe('Billionthing Register Test', function () {
 
                 headerpage.visit()
                 headerpage.signupHeader()
+                cy.get('.text-white').should('be.visible')
                 registerpage.fillName(registertest.ValidName)
                 registerpage.fillUsername(registertest.ValidUsername)
                 registerpage.fillEmail(registertest.ValidEmail)
@@ -114,6 +118,7 @@ describe('Billionthing Register Test', function () {
 
                 headerpage.visit()
                 headerpage.signupHeader()
+                cy.get('.text-white').should('be.visible')
                 registerpage.fillName(registertest.ValidName)
                 registerpage.fillUsername(registertest.ValidUsername)
                 registerpage.fillEmail(registertest.ValidEmail)
@@ -139,6 +144,7 @@ describe('Billionthing Register Test', function () {
 
                 headerpage.visit()
                 headerpage.signupHeader()
+                cy.get('.text-white').should('be.visible')
                 registerpage.fillName(registertest.ValidName)
                 registerpage.fillUsername(registertest.ValidUsername)
                 registerpage.fillEmail(registertest.ValidEmail)
@@ -163,6 +169,7 @@ describe('Billionthing Register Test', function () {
 
                 headerpage.visit()
                 headerpage.signupHeader()
+                cy.get('.text-white').should('be.visible')
                 registerpage.fillName(registertest.ValidName)
                 registerpage.fillUsername(registertest.ValidUsername)
                 registerpage.fillEmail(registertest.ValidEmail)
@@ -187,6 +194,7 @@ describe('Billionthing Register Test', function () {
 
                 headerpage.visit()
                 headerpage.signupHeader()
+                cy.get('.text-white').should('be.visible')
                 registerpage.fillName(registertest.ValidName)
                 registerpage.fillUsername(registertest.ValidUsername)
                 registerpage.fillEmail(registertest.ValidEmail)
@@ -195,6 +203,24 @@ describe('Billionthing Register Test', function () {
                 registerpage.fillRepeatPassword(registertest.ValidRePassword)
                 registerpage.agreeCheckbox()
                 //registerpage.signup()
+
+            })
+
+    })
+    it('Verify if the user can click on Sign in link', function () {
+
+        const headerpage = new HeaderPage()
+        const registerpage = new RegisterPage()
+        cy
+            .fixture('register')
+            .then(registertest => {
+
+                headerpage.visit()
+                headerpage.signupHeader()
+                registerpage.signinLink()
+                cy.get('.text-white').should('be.visible')
+               
+                
 
             })
 
@@ -210,6 +236,7 @@ describe('Billionthing Register Test', function () {
                 headerpage.visit()
                 headerpage.signupHeader()
                 registerpage.termsConditions()
+                cy.url().should("include","#formElements > .d-inline > .row > .col > a'")
                 
 
             })
