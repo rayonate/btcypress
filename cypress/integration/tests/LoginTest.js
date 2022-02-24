@@ -78,4 +78,35 @@ describe('Billionthing Login Test', function()  {
 
   })
 
+  it('forgot password link redirects to the relevant page. ', function()  {
+
+    const serverId ='cyrn4tn4'
+    const serverDomain = 'cyrn4tn4.mailosaur.net'
+    const emailAddress ='pasword-reset@'+serverDomain //pasword-reset@cyrn4tn4.mailosaur.net
+    const loginpage = new LoginPage()
+    const headerpage = new HeaderPage()
+    let passwordResetLink;
+    cy
+    .fixture('login')
+    .then( testvaliddata => {
+
+      headerpage.visit()
+      headerpage.signinHeader()
+      loginpage.forgotpasswordLink()
+      cy.get('.form-signin > #email').type(emailAddress)
+      cy.get('.form-signin > .btn').click()
+
+      cy.mailosaurGetMessage(serverId, {
+        sentTo: emailAddress
+    }).then(email => {
+        expect(email.subject)
+        passwordResetLink = email.text.links[0].href;
+    })
+      //cy.get('.col-sm-9 > .card > .card-body > .card-title').should('contain', testvaliddata.ForgotPassword)
+
+    
+    })
+
+  })
+
 })
